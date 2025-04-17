@@ -1,0 +1,47 @@
+{
+  "id": "8f058ff2-ce8a-48c8-8385-0946be49c7d7",
+  "name": "",
+  "publisher": "TNC Private Limited",
+  "version": "25.0.0.0",
+  "brief": "Tenant Customizations",
+  "description": "Tenant Customizations",
+  "privacyStatement": "https://www.tharangac.com/contact-us/privacy-policy",
+  "EULA": "https://www.tharangac.com/media/3805/terms-and-conditions-for-appsource-apps-for-business-central.pdf",
+  "help": "https://www.tharangac.com/contact-us",
+  "url": "https://www.tharangac.com/",
+  "logo": "../logo.jpg",
+  "propagateDependencies": true,
+  "dependencies": [
+
+  ],
+  "screenshots": [
+
+  ],
+  "target": "Cloud",
+  "platform": "25.0.0.0",
+  "application": "25.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50099
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://docs.microsoft.com/{0}/dynamics365/business-central",
+  "supportedLocales": [
+    "en-NZ",
+    "en-AU",
+    "en-US"
+  ],
+
+  "resourceExposurePolicy": {
+    "allowDebugging": false,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "14.0",
+  "features": [
+    "TranslationFile",
+    "NoImplicitWith",
+    "ExcludeGeneratedTranslations"
+  ],
+}

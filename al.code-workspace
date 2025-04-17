@@ -1,0 +1,136 @@
+{
+    "settings": {
+        "CRS.ObjectNameSuffix": "_TNC",
+        "CRS.OnSaveAlFileAction": "Reorganize",
+        "CRS.DisableDefaultAlSnippets": true,
+        "CRS.RenameWithGit": true,
+        "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+        "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+        "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+        "CRS.RemoveSuffixFromFilename": true,
+        "CRS.RemoveUnderscoreFromFilename": true,
+        "al.packageCachePath": "./.alpackages",
+        "al.enableCodeAnalysis": true,
+        "al.codeAnalyzers": [
+            "${CodeCop}",
+            "${PerTenantExtensionCop}"
+        ],
+        "al.assemblyProbingPaths": [
+            "./.netpackages",
+            "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.6"
+        ],
+        "al.snapshotOutputPath": "../.snapshots",
+        "al.snapshotDebuggingPath": "../.snapshots",
+        "alOutline.completionProviders": [
+            "VariableNamesWithType",
+            "VariableDataTypes"
+        ],
+        "files.exclude": {
+            ".vscode/rad.json": true,
+            ".vscode/al.code-snippets": true,
+            ".vscode/md.code-snippets": true,
+            ".vscode/json.code-snippets": true
+        },
+        "files.trimTrailingWhitespace": true,
+        "files.trimFinalNewlines": true,
+        "files.autoSave": "off",
+        "[markdown]": {
+            "files.trimTrailingWhitespace": false
+        },
+        "markdown.copyFiles.destination": {
+            "/**/*": "images/"
+        },
+        "cSpell.words": [
+            "alpackages",
+            "codeunit",
+            "featureflags"
+        ],
+        "git.enableSmartCommit": true,
+        "git.autofetch": true,
+        "git.confirmSync": false,
+        "git.postCommitCommand": "sync",
+        "git.branchProtection": [
+            "template/*",
+            "release/*/*",
+            "release/*/*/*"
+        ],
+        "gitlens.codeLens.enabled": false,
+        "gitlens.statusBar.enabled": false
+
+    },
+    "extensions": {
+        "recommendations": [
+            "ms-dynamics-smb.al",
+            "waldo.crs-al-language-extension",
+            "ms-azuretools.vscode-docker",
+            "dotjoshjohnson.xml",
+            "ms-vscode.powershell",
+            "streetsidesoftware.code-spell-checker",
+            "Gruntfuggly.todo-tree",
+            "humao.rest-client",
+            "eamodio.gitlens",
+            "andrzejzwierzchowski.al-code-outline",
+            "usernamehw.errorlens",
+            "nwallace.createguid",
+            "augustocdias.tasks-shell-input",
+            "ms-vscode.wordcount",
+            "davidfeldhoff.al-codeactions",
+            "ryu1kn.partial-diff"
+        ]
+    },
+    "tasks": {
+        "version": "2.0.0",
+        "problemMatcher": [],
+        "presentation": {
+            "echo": false,
+            "panel": "shared",
+            "focus": true,
+            "showReuseMessage": false,
+            "group": "AL Tasks",
+            "clear": true
+        },
+        "windows": {
+            "options": {
+                "shell": {
+                    "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                    "args": [
+                        "-NoProfile",
+                        "-ExecutionPolicy",
+                        "Bypass",
+                        "-Command"
+                    ]
+                }
+            }
+        },
+        "linux": {
+            "options": {
+                "shell": {
+                    "executable": "/usr/bin/pwsh",
+                    "args": [
+                        "-NoProfile",
+                        "-Command"
+                    ]
+                }
+            }
+        },
+        "osx": {
+            "options": {
+                "shell": {
+                    "executable": "/usr/local/bin/pwsh",
+                    "args": [
+                        "-NoProfile",
+                        "-Command"
+                    ]
+                }
+            }
+        }
+    },
+    "folders": [
+        {
+            "path": ".alpackages"
+        },
+        {
+            "path": "MAIN"
+        }
+    ]
+}

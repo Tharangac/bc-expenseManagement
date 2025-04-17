@@ -1,0 +1,14 @@
+{
+    "translationSource": ".\\Consignment Inventory.g.xlf",
+    "translations": [
+      {"country": "GB", "language": "en"},
+      {"country": "NZ", "language": "en"},
+      {"country": "AU", "language": "en"},
+      {"country": "ZA", "language": "en"},
+      {"country": "CA", "language": "en"},
+      {"country": "DE", "language": "de"},
+      {"country": "NL", "language": "nl"},
+      {"country": "FR", "language": "fr"},
+      {"country": "JP", "language": "ja"}
+    ]
+  }
