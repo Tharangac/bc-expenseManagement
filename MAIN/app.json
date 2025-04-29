@@ -1,6 +1,6 @@
 {
-  "id": "8f058ff2-ce8a-48c8-8385-0946be49c7d7",
-  "name": "",
+  "id": "8eb7db97-f011-4af6-9662-a79f7f26d97b",
+  "name": "Expense Management",
   "publisher": "TNC Private Limited",
   "version": "25.0.0.0",
   "brief": "Tenant Customizations",
@@ -43,5 +43,5 @@
     "TranslationFile",
     "NoImplicitWith",
     "ExcludeGeneratedTranslations"
-  ],
+  ]
 }

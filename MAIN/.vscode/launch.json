@@ -2,6 +2,25 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Publish: Microsoft cloud Sandbox-Dev",
+            "type": "al",
+            "request": "launch",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox-Dev",
+            "startupObjectId": 22,
+            "breakOnError": "All",
+            "breakOnRecordWrite": "None",
+            "launchBrowser": true,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10,
+            "tenant": "c2d70e79-12e2-4104-b73e-187655aeb9d6",
+            "schemaUpdateMode": "ForceSync"
+        },
+
+
+        {
             "type": "al",
             "request": "launch",
             "name": "Local Container",
