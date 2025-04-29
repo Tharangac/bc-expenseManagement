@@ -128,5 +128,4 @@ page 50004 "Expense Claim Card_TNC"
     var
         LinesEditable: Boolean;
         StatusStyleTxt: Text;
-        SalesHeader: Record "Sales Header";
 }

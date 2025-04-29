@@ -1,5 +1,6 @@
-permissionset 50000 "Permission_TNC"
+permissionset 50000 "Expense Per_TNC"
 {
+    Caption = 'Expense Management - Super';
     Assignable = true;
     Permissions = tabledata "Expense Management Setup_TNC" = RIMD,
         tabledata ExpenseClaimHeader_TNC = RIMD,

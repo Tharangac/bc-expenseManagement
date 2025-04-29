@@ -100,7 +100,6 @@ table 50000 "ExpenseClaimHeader_TNC"
 
     trigger OnInsert()
     begin
-        // "Created By" := UserId;
         InitInsert();
 
         "Date Created" := WorkDate();
