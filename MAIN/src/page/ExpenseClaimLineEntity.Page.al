@@ -74,11 +74,8 @@ page 50006 "Expense Claim Line Entity_TNC"
     trigger OnInsertRecord(BelowxRec: Boolean): Boolean
     var
         ExpenseClaimLine: Record ExpenseClaimLine_TNC;
-        ExpenseClaimHeader: Record ExpenseClaimHeader_TNC;
         NewLineNo: Integer;
     begin
-        //Error(Rec."Expense Claim Header ID");
-
         ExpenseClaimLine.SetRange("Document No.", Rec."Document No.");
         if ExpenseClaimLine.FindLast() then
             NewLineNo := ExpenseClaimLine."Line No." + 10000
